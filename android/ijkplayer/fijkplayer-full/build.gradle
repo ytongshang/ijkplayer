@@ -52,7 +52,7 @@ android {
     }
 
     sourceSets.main {
-        java.srcDirs = ["$rootProject.rootDir/ijkplayer-java/src/main/java/"]
+        //java.srcDirs = ["$rootProject.rootDir/ijkplayer-java/src/main/java/"]
         jni.srcDirs = [] // This prevents the auto generation of Android.mk
     }
 
